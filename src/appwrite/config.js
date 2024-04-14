@@ -1,5 +1,5 @@
 import { Account, Client, ID, Databases, Storage, Query } from 'appwrite';
-import conf from '../conf.js';
+import conf from '../conf/conf.js';
 
 export class Service{
     client = new Client();
